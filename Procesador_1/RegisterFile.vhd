@@ -21,7 +21,7 @@ architecture arqRegisterFile of RegisterFile is
 									  X"01101", X"01110", X"01111", X"10000", X"10001", X"10010"
 									  X"10011", X"10100", X"10101", X"10111", X"11000", X"11001"
 									  X"11010", X"11011", X"11100", X"11101", X"11110'", X"11111"
-									  X"01000", X"01001", X"01010", X"01010", X"01011");                        
+									  X"01000", X"01001",  X"01010", X"01010", X"01011");                        
 
     signal rdata : std_logic_vector(19 downto 0);
 begin
@@ -29,7 +29,9 @@ begin
 architecture Behavioral of RegisterFile is
 
 begin
-
+ 
+ 
+ 
 
 end Behavioral;
 
