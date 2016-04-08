@@ -2,8 +2,6 @@
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 
---PEcue es GAy :v :V :V 
-
 entity RegisterFile is
     Port ( Rs1 : in  STD_LOGIC_VECTOR (4 downto 0);
            Rs2 : in  STD_LOGIC_VECTOR (4 downto 0);
