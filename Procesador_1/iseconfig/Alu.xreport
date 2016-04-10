@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2016-04-07T19:57:38</DateModified>
+  <DateModified>2016-04-09T22:09:31</DateModified>
   <ModuleName>Alu</ModuleName>
   <SummaryTimeStamp>Unknown</SummaryTimeStamp>
-  <SavedFilePath>/home/jhon/Architecture-/Procesador_1/iseconfig/Alu.xreport</SavedFilePath>
-  <ImplementationReportsDirectory>/home/jhon/Architecture-/Procesador_1/</ImplementationReportsDirectory>
+  <SavedFilePath>/home/mauricio/Escritorio/universidad/semestre_VII/Arquitectura_Comp/Architecture-/Procesador_1/iseconfig/Alu.xreport</SavedFilePath>
+  <ImplementationReportsDirectory>/home/mauricio/Escritorio/universidad/semestre_VII/Arquitectura_Comp/Architecture-/Procesador_1/</ImplementationReportsDirectory>
   <DateInitialized>2016-04-07T17:14:38</DateInitialized>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>

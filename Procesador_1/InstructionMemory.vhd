@@ -1,15 +1,17 @@
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
+use IEEE.STD_LOGIC_UNSIGNED.ALL;
+use std.textio.all;
 
 entity InstructionMemory is
-    Port ( address : in  STD_LOGIC_VECTOR (31 downto 0);
-           reset : in  STD_LOGIC;
-           Outinstructions : out  STD_LOGIC_VECTOR (31 downto 0));
+    Port ( Address : in  STD_LOGIC_VECTOR (31 downto 0);
+           Reset : in  STD_LOGIC;
+           OutInstruction : out  STD_LOGIC_VECTOR (31 downto 0));
 end InstructionMemory;
 
 architecture Behavioral of InstructionMemory is
 
-type rom_type is array (0 to 63) of std_logic_vector (31 downto 0);
+	type rom_type is array (0 to 63) of std_logic_vector (31 downto 0);
 		
 	impure function InitRomFromFile (RomFileName : in string) return rom_type is
 		FILE RomFile : text open read_mode is RomFileName;
@@ -29,14 +31,14 @@ type rom_type is array (0 to 63) of std_logic_vector (31 downto 0);
 
 begin
 
-process(reset, address, instructions)
+	process(Reset, Address, instructions)
 	begin
-		if(reset = '1')then
-			outInstruction <= (others=>'0');
+		if(Reset = '1')then
+			OutInstruction <= (others=>'0');
 		else
-			outInstruction <= instructions(conv_integer(address(5 downto 0)));
+			OutInstruction <= instructions(conv_integer(Address(5 downto 0)));
 		end if;
-end process;
+	end process;
 
 end Behavioral;
 
