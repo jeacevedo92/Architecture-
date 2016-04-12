@@ -13,10 +13,10 @@ entity RegisterFile is
 			  rst: in STD_LOGIC);
 end RegisterFile;
 
-architecture Behavioral of RegisterFile is
+architecture Behavioral of RegisterFile is 
 
-    type rom_type is array (39 downto 0) of std_logic_vector (31 downto 0);                 
-    signal ROM : rom_type := (X"00011111", X"00000010", X"00000011", X"00000100", X"00000101", X"00000111",
+    type ram_type is array (39 downto 0) of std_logic_vector (31 downto 0);                 
+    signal RAM : ram_type := (X"00011111", X"00000010", X"00000011", X"00000100", X"00000101", X"00000111",
                              X"00001000", X"00001001", X"00001010", X"00001010", X"00001011", X"00001100",
 									  X"00001101", X"00001110", X"00001111", X"00010000", X"00010001", X"00010010",
 									  X"00010011", X"00010100", X"00010101", X"00010111", X"00011000", X"00011001",
@@ -33,10 +33,10 @@ begin
 						Crs1 <= (others => '0');
 						Crs2 <= (others => '0');
 					else
-						Crs1 <= ROM(conv_integer(Rs1));
-						Crs2 <= ROM(conv_integer(Rs2));
+						Crs1 <= RAM(conv_integer(Rs1));
+						Crs2 <= RAM(conv_integer(Rs2));
 						if (rsd /= "00000")then
-								ROM(conv_integer(Rsd))<= DataToWrite;
+								RAM(conv_integer(Rsd))<= DataToWrite;
 						end if;
 					end if;
 		end process;
