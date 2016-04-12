@@ -1,1 +1,1 @@
--intstyle "ise" -incremental -o "C:/Users/utp.CRIE/Desktop/parcial micosis  Lab lab 1/pro/procesador/ControlUnity_tb_isim_beh.exe" -prj "C:/Users/utp.CRIE/Desktop/parcial micosis  Lab lab 1/pro/procesador/ControlUnity_tb_beh.prj" "work.ControlUnity_tb" 
+-intstyle "ise" -incremental -o "C:/Users/DiegoAlejandro/Documents/GitHub/Architecture-/Procesador_1/tb_RegisterFile_isim_beh.exe" -prj "C:/Users/DiegoAlejandro/Documents/GitHub/Architecture-/Procesador_1/tb_RegisterFile_beh.prj" "work.tb_RegisterFile" 
