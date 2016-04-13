@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2016-04-13T15:11:15</DateModified>
+  <DateModified>2016-04-13T17:39:16</DateModified>
   <ModuleName>RegisterFile</ModuleName>
-  <SummaryTimeStamp>2016-04-13T15:08:44</SummaryTimeStamp>
-  <SavedFilePath>C:/Users/DiegoAlejandro/Documents/GitHub/Architecture-/Procesador_1/iseconfig/Alu.xreport</SavedFilePath>
+  <SummaryTimeStamp>Unknown</SummaryTimeStamp>
+  <SavedFilePath>C:/Users/DiegoAlejandro/Documents/GitHub/Architecture-/Procesador_1/iseconfig/RegisterFile.xreport</SavedFilePath>
   <ImplementationReportsDirectory>C:/Users/DiegoAlejandro/Documents/GitHub/Architecture-/Procesador_1\</ImplementationReportsDirectory>
-  <DateInitialized>2016-04-13T15:11:15</DateInitialized>
+  <DateInitialized>2016-04-13T15:16:51</DateInitialized>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>
  <body>
