@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2016-04-13T17:39:16</DateModified>
+  <DateModified>2016-04-14T15:06:27</DateModified>
   <ModuleName>RegisterFile</ModuleName>
   <SummaryTimeStamp>Unknown</SummaryTimeStamp>
-  <SavedFilePath>C:/Users/DiegoAlejandro/Documents/GitHub/Architecture-/Procesador_1/iseconfig/RegisterFile.xreport</SavedFilePath>
-  <ImplementationReportsDirectory>C:/Users/DiegoAlejandro/Documents/GitHub/Architecture-/Procesador_1\</ImplementationReportsDirectory>
+  <SavedFilePath>/home/mauricio/Escritorio/universidad/semestre_VII/Arquitectura_Comp/Architecture-/Procesador_1/iseconfig/RegisterFile.xreport</SavedFilePath>
+  <ImplementationReportsDirectory>/home/mauricio/Escritorio/universidad/semestre_VII/Arquitectura_Comp/Architecture-/Procesador_1/</ImplementationReportsDirectory>
   <DateInitialized>2016-04-13T15:16:51</DateInitialized>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>
