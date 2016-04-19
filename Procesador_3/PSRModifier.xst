@@ -1,0 +1,5 @@
+set -tmpdir "/home/mauricio/Escritorio/universidad/semestre_VII/Arquitectura_Comp/Architecture-/Procesador_3/xst/projnav.tmp"
+set -xsthdpdir "/home/mauricio/Escritorio/universidad/semestre_VII/Arquitectura_Comp/Architecture-/Procesador_3/xst"
+elaborate
+-ifn PSRModifier.prj
+-ifmt mixed
