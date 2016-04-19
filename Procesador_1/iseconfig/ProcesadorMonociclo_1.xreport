@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2016-04-14T17:55:41</DateModified>
+  <DateModified>2016-04-19T10:00:25</DateModified>
   <ModuleName>ProcesadorMonociclo_1</ModuleName>
   <SummaryTimeStamp>2016-04-14T17:27:11</SummaryTimeStamp>
   <SavedFilePath>C:/Users/DiegoAlejandro/Documents/GitHub/Architecture-/Procesador_1/iseconfig/ProcesadorMonociclo_1.xreport</SavedFilePath>
-  <ImplementationReportsDirectory>C:/Users/DiegoAlejandro/Documents/GitHub/Architecture-/Procesador_1</ImplementationReportsDirectory>
+  <ImplementationReportsDirectory>C:/Users/DiegoAlejandro/Documents/GitHub/Architecture-/Procesador_1\</ImplementationReportsDirectory>
   <DateInitialized>2016-04-14T16:58:41</DateInitialized>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>
