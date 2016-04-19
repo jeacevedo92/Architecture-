@@ -1,1 +1,1 @@
--intstyle "ise" -incremental -o "C:/Users/DiegoAlejandro/Documents/GitHub/Architecture-/Procesador_1/tb_RegisterFile_isim_beh.exe" -prj "C:/Users/DiegoAlejandro/Documents/GitHub/Architecture-/Procesador_1/tb_RegisterFile_beh.prj" "work.tb_RegisterFile" 
+-intstyle "ise" -incremental -o "C:/Users/DiegoAlejandro/Documents/GitHub/Architecture-/Procesador_1/procesadorMonociclo_1_tb_isim_beh.exe" -prj "C:/Users/DiegoAlejandro/Documents/GitHub/Architecture-/Procesador_1/procesadorMonociclo_1_tb_beh.prj" "work.procesadorMonociclo_1_tb" 

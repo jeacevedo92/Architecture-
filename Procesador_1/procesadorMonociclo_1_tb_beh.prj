@@ -1,0 +1,8 @@
+vhdl work "RegisterFile.vhd"
+vhdl work "ProgramCounter.vhd"
+vhdl work "InstructionMemory.vhd"
+vhdl work "ControlUnity.vhd"
+vhdl work "Alu.vhd"
+vhdl work "Adder.vhd"
+vhdl work "ProcesadorMonociclo_1.vhd"
+vhdl work "procesadorMonociclo_1_tb.vhd"

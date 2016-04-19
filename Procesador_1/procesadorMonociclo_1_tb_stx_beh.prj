@@ -1,0 +1,8 @@
+vhdl isim_temp "RegisterFile.vhd"
+vhdl isim_temp "ProgramCounter.vhd"
+vhdl isim_temp "InstructionMemory.vhd"
+vhdl isim_temp "ControlUnity.vhd"
+vhdl isim_temp "Alu.vhd"
+vhdl isim_temp "Adder.vhd"
+vhdl isim_temp "ProcesadorMonociclo_1.vhd"
+vhdl isim_temp "procesadorMonociclo_1_tb.vhd"

@@ -11,17 +11,5 @@
 <msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/DiegoAlejandro/Documents/GitHub/Architecture-/Procesador_1/Alu.vhd&quot; into library work</arg>
 </msg>
 
-<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/DiegoAlejandro/Documents/GitHub/Architecture-/Procesador_1/ControlUnity.vhd&quot; into library work</arg>
-</msg>
-
-<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/DiegoAlejandro/Documents/GitHub/Architecture-/Procesador_1/InstructionMemory.vhd&quot; into library work</arg>
-</msg>
-
-<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/DiegoAlejandro/Documents/GitHub/Architecture-/Procesador_1/ProgramCounter.vhd&quot; into library work</arg>
-</msg>
-
-<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/DiegoAlejandro/Documents/GitHub/Architecture-/Procesador_1/RegisterFile.vhd&quot; into library work</arg>
-</msg>
-
 </messages>
 

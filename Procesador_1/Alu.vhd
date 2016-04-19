@@ -40,7 +40,7 @@ end Alu;
 architecture Behavioral of Alu is
 
 begin
-process(AluOp)
+process(AluOp,Crs1,Crs2)
 	begin
 	case (AluOp) is 
 		when "000000" => --Add
@@ -60,7 +60,7 @@ process(AluOp)
 		when "000111" => --Xnor
 			AluResult <= Crs1 xnor Crs2;
 		when others =>
-			AluResult <= (others=>'1');
+			AluResult <= (others=>'0');
 	end case;
 end process;
 

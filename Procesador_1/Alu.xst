@@ -1,0 +1,5 @@
+set -tmpdir "C:/Users/DiegoAlejandro/Documents/GitHub/Architecture-/Procesador_1/xst/projnav.tmp"
+set -xsthdpdir "C:/Users/DiegoAlejandro/Documents/GitHub/Architecture-/Procesador_1/xst"
+elaborate
+-ifn Alu.prj
+-ifmt mixed

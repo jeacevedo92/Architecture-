@@ -1,1 +1,7 @@
+work	"Adder.vhd"
+work	"Alu.vhd"
+work	"ControlUnity.vhd"
+work	"InstructionMemory.vhd"
+work	"ProcesadorMonociclo_1.vhd"
+work	"ProgramCounter.vhd"
 work	"RegisterFile.vhd"

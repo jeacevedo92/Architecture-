@@ -1,0 +1,7 @@
+vhdl work "C:\Users\DiegoAlejandro\Documents\GitHub\Architecture-\Procesador_1\RegisterFile.vhd"
+vhdl work "C:\Users\DiegoAlejandro\Documents\GitHub\Architecture-\Procesador_1\ProgramCounter.vhd"
+vhdl work "C:\Users\DiegoAlejandro\Documents\GitHub\Architecture-\Procesador_1\InstructionMemory.vhd"
+vhdl work "C:\Users\DiegoAlejandro\Documents\GitHub\Architecture-\Procesador_1\ControlUnity.vhd"
+vhdl work "C:\Users\DiegoAlejandro\Documents\GitHub\Architecture-\Procesador_1\Alu.vhd"
+vhdl work "C:\Users\DiegoAlejandro\Documents\GitHub\Architecture-\Procesador_1\Adder.vhd"
+vhdl work "C:\Users\DiegoAlejandro\Documents\GitHub\Architecture-\Procesador_1\ProcesadorMonociclo_1.vhd"

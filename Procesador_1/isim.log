@@ -1,5 +1,5 @@
 ISim log file
-Running: C:\Users\DiegoAlejandro\Documents\GitHub\Architecture-\Procesador_1\tb_RegisterFile_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb C:/Users/DiegoAlejandro/Documents/GitHub/Architecture-/Procesador_1/tb_RegisterFile_isim_beh.wdb 
+Running: C:\Users\DiegoAlejandro\Documents\GitHub\Architecture-\Procesador_1\procesadorMonociclo_1_tb_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb C:/Users/DiegoAlejandro/Documents/GitHub/Architecture-/Procesador_1/procesadorMonociclo_1_tb_isim_beh.wdb 
 ISim P.20131013 (signature 0x7708f090)
 WARNING: A WEBPACK license was found.
 WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
@@ -10,4 +10,9 @@ Time resolution is 1 ps
 # wave add /
 # run 1000 ns
 Simulator is doing circuit initialization process.
+at 0 ps, Instance /procesadormonociclo_1_tb/uut/Inst_Adder/ : Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+at 0 ps, Instance /procesadormonociclo_1_tb/uut/Inst_InstructionMemory/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 0 ps, Instance /procesadormonociclo_1_tb/uut/Inst_RegisterFile/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 0 ps, Instance /procesadormonociclo_1_tb/uut/Inst_RegisterFile/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 0 ps, Instance /procesadormonociclo_1_tb/uut/Inst_RegisterFile/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
 Finished circuit initialization process.
