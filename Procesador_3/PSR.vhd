@@ -1,29 +1,31 @@
 
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
-
--- Uncomment the following library declaration if using
--- arithmetic functions with Signed or Unsigned values
---use IEEE.NUMERIC_STD.ALL;
-
--- Uncomment the following library declaration if instantiating
--- any Xilinx primitives in this code.
---library UNISIM;
---use UNISIM.VComponents.all;
+use IEEE.NUMERIC_STD.ALL;
 
 entity PSR is
-    Port ( nzvc : in  STD_LOGIC_VECTOR (4 downto 0);
-           c : out  STD_LOGIC);
+    Port ( nzvc : in  STD_LOGIC_VECTOR (3 downto 0);
+			  clk : in  STD_LOGIC;
+			   rst : in  STD_LOGIC;
+           Carry : out  STD_LOGIC);
 end PSR;
 
 architecture Behavioral of PSR is
 
+signal PSR: std_logic_vector(31 downto 0):= (others=>'0');
+
 begin
 
-process(nzvc)
+process(clk,nzvc)
 	begin
-	
-	c<=nzvc(0);
+	if(rising_edge(clk))then
+			if(rst = '1') then				
+				carry <= '0';
+			else
+				PSR(23 downto 20) <= nzvc;
+				Carry <= PSR(20);
+			end if;
+		end if;
 end process;
 end Behavioral;
 
