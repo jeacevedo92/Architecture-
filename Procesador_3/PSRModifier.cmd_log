@@ -1,1 +1,2 @@
 vhdtdtfi -prj Procesador_3 -o /home/jhon/Escritorio/Architecture-/Procesador_3/PSRModifier.vhi -module PSRModifier -template /home/jhon/Documentos/Universidad/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work PSRModifier.vhd 
+vhdtdtfi -prj Procesador_3 -o /home/jhon/Escritorio/Architecture-/Procesador_3/PSRModifier.vhi -module PSRModifier -template /home/jhon/Documentos/Universidad/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work PSRModifier.vhd 

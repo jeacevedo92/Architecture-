@@ -60,6 +60,7 @@ architecture Behavioral of Procesador_3 is
 	PORT(
 		aluResult : IN std_logic_vector(31 downto 0);
 		operando1 : IN std_logic;
+		reset : IN std_logic;
 		operando2 : IN std_logic;
 		aluOp : IN std_logic_vector(5 downto 0);          
 		nzvc : OUT std_logic_vector(3 downto 0)
@@ -148,6 +149,7 @@ Inst_Mux: Mux PORT MAP(
 	Inst_PSRModifier: PSRModifier PORT MAP(
 		aluResult => Aluresult,
 		operando1 => Rfcrs1toAlu(31),
+		reset => rst,
 		operando2 => MuxtoAlu(31),--revisar !!!!!!
 		aluOp => CutoAlu,
 		nzvc => PsrModifiertoPsr
