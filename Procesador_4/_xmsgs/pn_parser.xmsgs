@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated   -->
+<!--     by the Xilinx ISE software.  Any direct editing or        -->
+<!--     changes made to this file may result in unpredictable     -->
+<!--     behavior or data corruption.  It is strongly advised that -->
+<!--     users do not edit the contents of this file.              -->
+<!--                                                               -->
+<!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.    -->
+
+<messages>
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/mauricio/Escritorio/Architecture-/Procesador_4/ControlUnity.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">/home/mauricio/Escritorio/Architecture-/Procesador_4/ControlUnity.vhd</arg>&quot; Line <arg fmt="%d" index="2">30</arg>. <arg fmt="%s" index="3">Syntax error near &quot;=&gt;&quot;.</arg>
+</msg>
+
+<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">/home/mauricio/Escritorio/Architecture-/Procesador_4/ControlUnity.vhd</arg>&quot; Line <arg fmt="%d" index="2">39</arg>. <arg fmt="%s" index="3">Syntax error near &quot;=&gt;&quot;.</arg>
+</msg>
+
+<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">/home/mauricio/Escritorio/Architecture-/Procesador_4/ControlUnity.vhd</arg>&quot; Line <arg fmt="%d" index="2">47</arg>. <arg fmt="%s" index="3">Syntax error near &quot;=&gt;&quot;.</arg>
+</msg>
+
+<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">/home/mauricio/Escritorio/Architecture-/Procesador_4/ControlUnity.vhd</arg>&quot; Line <arg fmt="%d" index="2">57</arg>. <arg fmt="%s" index="3">Syntax error near &quot;=&gt;&quot;.</arg>
+</msg>
+
+<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">/home/mauricio/Escritorio/Architecture-/Procesador_4/ControlUnity.vhd</arg>&quot; Line <arg fmt="%d" index="2">65</arg>. <arg fmt="%s" index="3">Syntax error near &quot;=&gt;&quot;.</arg>
+</msg>
+
+<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">/home/mauricio/Escritorio/Architecture-/Procesador_4/ControlUnity.vhd</arg>&quot; Line <arg fmt="%d" index="2">75</arg>. <arg fmt="%s" index="3">Syntax error near &quot;=&gt;&quot;.</arg>
+</msg>
+
+<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">/home/mauricio/Escritorio/Architecture-/Procesador_4/ControlUnity.vhd</arg>&quot; Line <arg fmt="%d" index="2">83</arg>. <arg fmt="%s" index="3">Syntax error near &quot;=&gt;&quot;.</arg>
+</msg>
+
+<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">/home/mauricio/Escritorio/Architecture-/Procesador_4/ControlUnity.vhd</arg>&quot; Line <arg fmt="%d" index="2">93</arg>. <arg fmt="%s" index="3">Syntax error near &quot;=&gt;&quot;.</arg>
+</msg>
+
+<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">/home/mauricio/Escritorio/Architecture-/Procesador_4/ControlUnity.vhd</arg>&quot; Line <arg fmt="%d" index="2">101</arg>. <arg fmt="%s" index="3">Syntax error near &quot;=&gt;&quot;.</arg>
+</msg>
+
+<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">/home/mauricio/Escritorio/Architecture-/Procesador_4/ControlUnity.vhd</arg>&quot; Line <arg fmt="%d" index="2">111</arg>. <arg fmt="%s" index="3">Syntax error near &quot;=&gt;&quot;.</arg>
+</msg>
+
+<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">/home/mauricio/Escritorio/Architecture-/Procesador_4/ControlUnity.vhd</arg>&quot; Line <arg fmt="%d" index="2">119</arg>. <arg fmt="%s" index="3">Syntax error near &quot;=&gt;&quot;.</arg>
+</msg>
+
+<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">/home/mauricio/Escritorio/Architecture-/Procesador_4/ControlUnity.vhd</arg>&quot; Line <arg fmt="%d" index="2">129</arg>. <arg fmt="%s" index="3">Syntax error near &quot;=&gt;&quot;.</arg>
+</msg>
+
+<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">/home/mauricio/Escritorio/Architecture-/Procesador_4/ControlUnity.vhd</arg>&quot; Line <arg fmt="%d" index="2">137</arg>. <arg fmt="%s" index="3">Syntax error near &quot;=&gt;&quot;.</arg>
+</msg>
+
+<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">/home/mauricio/Escritorio/Architecture-/Procesador_4/ControlUnity.vhd</arg>&quot; Line <arg fmt="%d" index="2">146</arg>. <arg fmt="%s" index="3">Syntax error near &quot;=&gt;&quot;.</arg>
+</msg>
+
+<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">/home/mauricio/Escritorio/Architecture-/Procesador_4/ControlUnity.vhd</arg>&quot; Line <arg fmt="%d" index="2">156</arg>. <arg fmt="%s" index="3">Syntax error near &quot;=&gt;&quot;.</arg>
+</msg>
+
+<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">/home/mauricio/Escritorio/Architecture-/Procesador_4/ControlUnity.vhd</arg>&quot; Line <arg fmt="%d" index="2">170</arg>. <arg fmt="%s" index="3">Syntax error near &quot;=&gt;&quot;.</arg>
+</msg>
+
+<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">/home/mauricio/Escritorio/Architecture-/Procesador_4/ControlUnity.vhd</arg>&quot; Line <arg fmt="%d" index="2">178</arg>. <arg fmt="%s" index="3">Syntax error near &quot;=&gt;&quot;.</arg>
+</msg>
+
+<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">/home/mauricio/Escritorio/Architecture-/Procesador_4/ControlUnity.vhd</arg>&quot; Line <arg fmt="%d" index="2">186</arg>. <arg fmt="%s" index="3">Syntax error near &quot;=&gt;&quot;.</arg>
+</msg>
+
+<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">/home/mauricio/Escritorio/Architecture-/Procesador_4/ControlUnity.vhd</arg>&quot; Line <arg fmt="%d" index="2">194</arg>. <arg fmt="%s" index="3">Syntax error near &quot;=&gt;&quot;.</arg>
+</msg>
+
+<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">/home/mauricio/Escritorio/Architecture-/Procesador_4/ControlUnity.vhd</arg>&quot; Line <arg fmt="%d" index="2">204</arg>. <arg fmt="%s" index="3">Syntax error near &quot;=&gt;&quot;.</arg>
+</msg>
+
+<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">/home/mauricio/Escritorio/Architecture-/Procesador_4/ControlUnity.vhd</arg>&quot; Line <arg fmt="%d" index="2">212</arg>. <arg fmt="%s" index="3">Syntax error near &quot;=&gt;&quot;.</arg>
+</msg>
+
+<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">/home/mauricio/Escritorio/Architecture-/Procesador_4/ControlUnity.vhd</arg>&quot; Line <arg fmt="%d" index="2">220</arg>. <arg fmt="%s" index="3">Syntax error near &quot;=&gt;&quot;.</arg>
+</msg>
+
+<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">/home/mauricio/Escritorio/Architecture-/Procesador_4/ControlUnity.vhd</arg>&quot; Line <arg fmt="%d" index="2">228</arg>. <arg fmt="%s" index="3">Syntax error near &quot;=&gt;&quot;.</arg>
+</msg>
+
+<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">/home/mauricio/Escritorio/Architecture-/Procesador_4/ControlUnity.vhd</arg>&quot; Line <arg fmt="%d" index="2">239</arg>. <arg fmt="%s" index="3">Syntax error near &quot;=&gt;&quot;.</arg>
+</msg>
+
+<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">/home/mauricio/Escritorio/Architecture-/Procesador_4/ControlUnity.vhd</arg>&quot; Line <arg fmt="%d" index="2">247</arg>. <arg fmt="%s" index="3">Syntax error near &quot;=&gt;&quot;.</arg>
+</msg>
+
+<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">/home/mauricio/Escritorio/Architecture-/Procesador_4/ControlUnity.vhd</arg>&quot; Line <arg fmt="%d" index="2">256</arg>. <arg fmt="%s" index="3">Syntax error near &quot;=&gt;&quot;.</arg>
+</msg>
+
+<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">/home/mauricio/Escritorio/Architecture-/Procesador_4/ControlUnity.vhd</arg>&quot; Line <arg fmt="%d" index="2">264</arg>. <arg fmt="%s" index="3">Syntax error near &quot;=&gt;&quot;.</arg>
+</msg>
+
+<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">/home/mauricio/Escritorio/Architecture-/Procesador_4/ControlUnity.vhd</arg>&quot; Line <arg fmt="%d" index="2">274</arg>. <arg fmt="%s" index="3">Syntax error near &quot;=&gt;&quot;.</arg>
+</msg>
+
+<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">/home/mauricio/Escritorio/Architecture-/Procesador_4/ControlUnity.vhd</arg>&quot; Line <arg fmt="%d" index="2">282</arg>. <arg fmt="%s" index="3">Syntax error near &quot;=&gt;&quot;.</arg>
+</msg>
+
+<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">/home/mauricio/Escritorio/Architecture-/Procesador_4/ControlUnity.vhd</arg>&quot; Line <arg fmt="%d" index="2">291</arg>. <arg fmt="%s" index="3">Syntax error near &quot;=&gt;&quot;.</arg>
+</msg>
+
+<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">/home/mauricio/Escritorio/Architecture-/Procesador_4/ControlUnity.vhd</arg>&quot; Line <arg fmt="%d" index="2">299</arg>. <arg fmt="%s" index="3">Syntax error near &quot;=&gt;&quot;.</arg>
+</msg>
+
+<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">/home/mauricio/Escritorio/Architecture-/Procesador_4/ControlUnity.vhd</arg>&quot; Line <arg fmt="%d" index="2">309</arg>. <arg fmt="%s" index="3">Syntax error near &quot;=&gt;&quot;.</arg>
+</msg>
+
+<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">/home/mauricio/Escritorio/Architecture-/Procesador_4/ControlUnity.vhd</arg>&quot; Line <arg fmt="%d" index="2">317</arg>. <arg fmt="%s" index="3">Syntax error near &quot;=&gt;&quot;.</arg>
+</msg>
+
+<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">/home/mauricio/Escritorio/Architecture-/Procesador_4/ControlUnity.vhd</arg>&quot; Line <arg fmt="%d" index="2">326</arg>. <arg fmt="%s" index="3">Syntax error near &quot;=&gt;&quot;.</arg>
+</msg>
+
+<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">/home/mauricio/Escritorio/Architecture-/Procesador_4/ControlUnity.vhd</arg>&quot; Line <arg fmt="%d" index="2">334</arg>. <arg fmt="%s" index="3">Syntax error near &quot;=&gt;&quot;.</arg>
+</msg>
+
+<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">/home/mauricio/Escritorio/Architecture-/Procesador_4/ControlUnity.vhd</arg>&quot; Line <arg fmt="%d" index="2">343</arg>. <arg fmt="%s" index="3">Syntax error near &quot;=&gt;&quot;.</arg>
+</msg>
+
+<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">/home/mauricio/Escritorio/Architecture-/Procesador_4/ControlUnity.vhd</arg>&quot; Line <arg fmt="%d" index="2">352</arg>. <arg fmt="%s" index="3">Syntax error near &quot;=&gt;&quot;.</arg>
+</msg>
+
+<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">/home/mauricio/Escritorio/Architecture-/Procesador_4/ControlUnity.vhd</arg>&quot; Line <arg fmt="%d" index="2">361</arg>. <arg fmt="%s" index="3">Syntax error near &quot;=&gt;&quot;.</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/mauricio/Escritorio/Architecture-/Procesador_4/RegisterFile.vhd&quot; into library work</arg>
+</msg>
+
+</messages>
+

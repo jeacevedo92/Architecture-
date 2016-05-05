@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2016-05-04T17:15:52</DateModified>
+  <DateModified>2016-05-05T17:38:53</DateModified>
   <ModuleName>WindowsManager</ModuleName>
   <SummaryTimeStamp>Unknown</SummaryTimeStamp>
-  <SavedFilePath>/home/jhon/Escritorio/Architecture-/Procesador_4/iseconfig/WindowsManager.xreport</SavedFilePath>
-  <ImplementationReportsDirectory>/home/jhon/Escritorio/Architecture-/Procesador_4/</ImplementationReportsDirectory>
+  <SavedFilePath>/home/mauricio/Escritorio/Architecture-/Procesador_4/iseconfig/WindowsManager.xreport</SavedFilePath>
+  <ImplementationReportsDirectory>/home/mauricio/Escritorio/Architecture-/Procesador_4/</ImplementationReportsDirectory>
   <DateInitialized>2016-05-04T16:16:21</DateInitialized>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>
