@@ -1,5 +1,0 @@
-set -tmpdir "/home/mauricio/Escritorio/Architecture-/Procesador_4/xst/projnav.tmp"
-set -xsthdpdir "/home/mauricio/Escritorio/Architecture-/Procesador_4/xst"
-elaborate
--ifn RegisterFile.prj
--ifmt mixed
