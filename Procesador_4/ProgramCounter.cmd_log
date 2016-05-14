@@ -1,0 +1,6 @@
+vhdtdtfi -prj Procesador_4 -o C:/Users/DiegoAlejandro/Documents/GitHub/Architecture-/Procesador_4/ProgramCounter.tfi -module ProgramCounter -template C:/Xilinix/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror -lib work ProgramCounter.vhd 
+vhdtdtfi -prj Procesador_4 -o C:/Users/DiegoAlejandro/Documents/GitHub/Architecture-/Procesador_4/ProgramCounter.tfi -module ProgramCounter -template C:/Xilinix/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror -lib work ProgramCounter.vhd 
+vhdtdtfi -prj Procesador_4 -o C:/Users/DiegoAlejandro/Documents/GitHub/Architecture-/Procesador_4/ProgramCounter.tfi -module ProgramCounter -template C:/Xilinix/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror -lib work ProgramCounter.vhd 
+vhdtdtfi -lib work ProgramCounter.vhd -prj Procesador_4 -o ProgramCounter.spl -module ProgramCounter -template C:/Xilinix/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e ProgramCounter.spl C:/Users/DiegoAlejandro/Documents/GitHub/Architecture-/Procesador_4/ProgramCounter.sym 
+vhdtdtfi -prj Procesador_4 -o C:/Users/DiegoAlejandro/Documents/GitHub/Architecture-/Procesador_4/ProgramCounter.tfi -module ProgramCounter -template C:/Xilinix/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror -lib work ProgramCounter.vhd 

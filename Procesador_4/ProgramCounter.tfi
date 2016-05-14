@@ -1,0 +1,12 @@
+
+
+
+// Instantiate the module
+ProgramCounter instance_name (
+    .Pcin(Pcin), 
+    .clk(clk), 
+    .rst(rst), 
+    .Pcout(Pcout)
+    );
+
+
