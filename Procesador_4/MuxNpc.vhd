@@ -31,7 +31,7 @@ process(Pcsource,Pcdisp30,Pcdisp22,Pc,AluOut)
          toNpc <= Pcdisp22 ;
       when "10" =>
          toNpc <= Pc ;
-      when "11" =>
+      when others =>
          toNpc <= AluOut;
    end case;
 

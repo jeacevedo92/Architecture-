@@ -1,0 +1,3 @@
+vhdtdtfi -prj Procesador_4 -o /home/jhon/Architecture-/Procesador_4/Adder.tfi -module Adder -template /home/jhon/Documentos/Universidad/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror -lib work Adder.vhd 
+vhdtdtfi -prj Procesador_4 -o /home/jhon/Architecture-/Procesador_4/Adder.tfi -module Adder -template /home/jhon/Documentos/Universidad/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror -lib work Adder.vhd 
+vhdtdtfi -prj Procesador_4 -o /home/jhon/Architecture-/Procesador_4/Adder.vhi -module Adder -template /home/jhon/Documentos/Universidad/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work Adder.vhd 

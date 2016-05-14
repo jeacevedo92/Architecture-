@@ -8,6 +8,7 @@ entity Alu is
            Crs2 : in  STD_LOGIC_VECTOR (31 downto 0);
            AluOp : in  STD_LOGIC_VECTOR (5 downto 0);
 			  Carry: in STD_LOGIC;
+			  
            AluResult : out  STD_LOGIC_VECTOR (31 downto 0));
 end Alu;
 

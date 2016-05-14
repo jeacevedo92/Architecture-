@@ -8,6 +8,7 @@ entity PSR is
 			  clk : in  STD_LOGIC;
 			  nCWP: in STD_LOGIC;
 			  rst : in  STD_LOGIC;
+			  
            Carry : out  STD_LOGIC;
 			  CWP : out STD_LOGIC;
 			  icc : out STD_LOGIC_VECTOR(3 downto 0));
@@ -26,13 +27,13 @@ process(clk,nzvc,nCWP)
 			if(rst = '1') then				
 				carry <= '0';
 				CWP <= '0';
-				icc <= '0';
+				icc <= "0000";
 			else
 				PSR(23 downto 20) <= nzvc;
 				PSR(0) <= nCWP; 
 				Carry <= PSR(20);
 				CWP <= PSR(0);
-				icc <= PSR(23 downto 0);
+				icc <= PSR(23 downto 20);
 			end if;
 		end if;
 end process;

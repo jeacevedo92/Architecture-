@@ -1,7 +1,0 @@
-[Inputs]
-clk
-rst
-=Pcin[31:0]=
-[Outputs]
-=Pcout[31:0]=
-[BiDir]

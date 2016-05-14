@@ -4,14 +4,15 @@ use IEEE.STD_LOGIC_1164.ALL;
 use IEEE.STD_LOGIC_UNSIGNED.ALL;
 
 entity RegisterFile is
-    Port ( Rs1 : in  STD_LOGIC_VECTOR (4 downto 0);
-           Rs2 : in  STD_LOGIC_VECTOR (4 downto 0);
-           Rsd : in  STD_LOGIC_VECTOR (4 downto 0);
+    Port ( Rs1 : in  STD_LOGIC_VECTOR (5 downto 0);
+           Rs2 : in  STD_LOGIC_VECTOR (5 downto 0);
+           Rsd : in  STD_LOGIC_VECTOR (5 downto 0);
            DataToWrite : in  STD_LOGIC_VECTOR (31 downto 0);
 			  rst: in STD_LOGIC ;
 			  writeEnable: in STD_LOGIC ;
            Crs1 : out  STD_LOGIC_VECTOR (31 downto 0);
-           Crs2 : out  STD_LOGIC_VECTOR (31 downto 0));
+           Crs2 : out  STD_LOGIC_VECTOR (31 downto 0);
+			  Crd : out STD_LOGIC_VECTOR (31 downto 0));
 end RegisterFile;
 
 architecture Behavioral of RegisterFile is 
@@ -26,10 +27,12 @@ begin
 					RAM <= (others=>x"00000000");    
 					Crs1 <= (others => '0');
 					Crs2 <= (others => '0');
+					Crd <= (others => '0');
 				else
 					Crs1 <= RAM(conv_integer(Rs1));
 					Crs2 <= RAM(conv_integer(Rs2));
-					if (writeEnable = '1' and rsd /= "00000")then
+					Crd <= RAM(conv_integer(Rsd));
+					if (writeEnable = '1' and Rsd /= "00000")then
 							RAM(conv_integer(Rsd))<= DataToWrite;
 					end if;
 				end if;

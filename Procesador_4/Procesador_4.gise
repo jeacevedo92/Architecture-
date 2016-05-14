@@ -22,9 +22,7 @@
   <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="Procesador_4.xise"/>
 
   <files xmlns="http://www.xilinx.com/XMLSchema">
-    <file xil_pn:fileType="FILE_SPL" xil_pn:name="ProgramCounter.spl"/>
     <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="ProgramCounter.sym" xil_pn:origination="imported"/>
-    <file xil_pn:fileType="FILE_VERILOG_INSTTEMPLATE" xil_pn:name="ProgramCounter.tfi"/>
   </files>
 
   <transforms xmlns="http://www.xilinx.com/XMLSchema"/>

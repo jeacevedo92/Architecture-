@@ -22,11 +22,12 @@ end WindowsManager;
 architecture Behavioral of WindowsManager is
 
 signal rs1I,rs2I,rdI: integer range 0 to 39:=0;
-signal auxRegistroO7 : std_logic_vector(6 downto 0);
+signal auxRegistroO7 ,mul : std_logic_vector(6 downto 0);
 
 begin
-	auxRegistroO7 <= cwp * "10000";
-	registroO7 <= auxRegistroO7(5 downto 0) + "001111";
+	mul(0) <= cwp;
+	auxRegistroO7 <= mul * "10000";
+	Registro07 <= auxRegistroO7(5 downto 0) + "001111";
 	process(op, op3, rd, rs1, rs2, cwp)
 		begin
 		

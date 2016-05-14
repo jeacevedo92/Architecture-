@@ -7,6 +7,7 @@ entity PSRModifier is
 			  operando1 : in  STD_LOGIC;
 			  reset : in  STD_LOGIC;
            operando2 : in  STD_LOGIC;
+			  
 			  nzvc : out std_logic_vector(3 downto 0));
 end PSRModifier;
 

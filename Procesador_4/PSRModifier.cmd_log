@@ -1,0 +1,1 @@
+vhdtdtfi -prj Procesador_4 -o /home/jhon/Architecture-/Procesador_4/PSRModifier.vhi -module PSRModifier -template /home/jhon/Documentos/Universidad/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work PSRModifier.vhd 
