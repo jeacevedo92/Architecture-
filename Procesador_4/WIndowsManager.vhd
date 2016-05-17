@@ -14,7 +14,7 @@ entity WindowsManager is
            nrs1 : out  STD_LOGIC_VECTOR (5 downto 0);
            nrs2 : out  STD_LOGIC_VECTOR (5 downto 0);
            nrd : out  STD_LOGIC_VECTOR (5 downto 0);
-           ncwp : out  STD_LOGIC;
+           ncwp : out  STD_LOGIC:='0';
 			  
 			  Registro07 : out STD_LOGIC_VECTOR (5 downto 0));
 end WindowsManager;
@@ -22,12 +22,19 @@ end WindowsManager;
 architecture Behavioral of WindowsManager is
 
 signal rs1I,rs2I,rdI: integer range 0 to 39:=0;
-signal auxRegistroO7 ,mul : std_logic_vector(6 downto 0);
+--signal auxRegistroO7 : std_logic_vector(6 downto 0);
+--signal mul:std_logic_vector(1 downto 0);
 
 begin
-	mul(0) <= cwp;
-	auxRegistroO7 <= mul * "10000";
-	Registro07 <= auxRegistroO7(5 downto 0) + "001111";
+	process(cwp)
+		begin
+			if (cwp = '1') then
+				Registro07 <= "011111";
+			else
+				Registro07 <= "001111";
+			end if;		
+	end process;
+	
 	process(op, op3, rd, rs1, rs2, cwp)
 		begin
 		

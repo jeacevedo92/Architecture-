@@ -10,6 +10,7 @@ entity RegisterFile is
            DataToWrite : in  STD_LOGIC_VECTOR (31 downto 0);
 			  rst: in STD_LOGIC ;
 			  writeEnable: in STD_LOGIC ;
+			  
            Crs1 : out  STD_LOGIC_VECTOR (31 downto 0);
            Crs2 : out  STD_LOGIC_VECTOR (31 downto 0);
 			  Crd : out STD_LOGIC_VECTOR (31 downto 0));
@@ -32,7 +33,7 @@ begin
 					Crs1 <= RAM(conv_integer(Rs1));
 					Crs2 <= RAM(conv_integer(Rs2));
 					Crd <= RAM(conv_integer(Rsd));
-					if (writeEnable = '1' and Rsd /= "00000")then
+					if (writeEnable = '1' and Rsd /= "000000")then
 							RAM(conv_integer(Rsd))<= DataToWrite;
 					end if;
 				end if;

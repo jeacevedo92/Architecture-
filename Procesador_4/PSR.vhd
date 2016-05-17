@@ -31,9 +31,9 @@ process(clk,nzvc,nCWP)
 			else
 				PSR(23 downto 20) <= nzvc;
 				PSR(0) <= nCWP; 
-				Carry <= PSR(20);
-				CWP <= PSR(0);
+				Carry <= PSR(20);				
 				icc <= PSR(23 downto 20);
+				CWP <= PSR(0);
 			end if;
 		end if;
 end process;

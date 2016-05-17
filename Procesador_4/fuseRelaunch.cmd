@@ -1,1 +1,1 @@
--intstyle "ise" -incremental -o "/home/jhon/Escritorio/Architecture-/Procesador_4/DataMemoryTB_isim_beh.exe" -prj "/home/jhon/Escritorio/Architecture-/Procesador_4/DataMemoryTB_beh.prj" "work.DataMemoryTB" 
+-intstyle "ise" -incremental -o "/home/jhon/Architecture-/Procesador_4/Procesador4_tb_isim_beh.exe" -prj "/home/jhon/Architecture-/Procesador_4/Procesador4_tb_beh.prj" "work.Procesador4_tb" 

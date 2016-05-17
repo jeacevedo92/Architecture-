@@ -138,9 +138,9 @@ architecture Behavioral of Procesador4 is
 
 	COMPONENT RegisterFile
 	PORT(
-		Rs1 : IN std_logic_vector(4 downto 0);
-		Rs2 : IN std_logic_vector(4 downto 0);
-		Rsd : IN std_logic_vector(4 downto 0);
+		Rs1 : IN std_logic_vector(5 downto 0);
+		Rs2 : IN std_logic_vector(5 downto 0);
+		Rsd : IN std_logic_vector(5 downto 0);
 		DataToWrite : IN std_logic_vector(31 downto 0);
 		rst : IN std_logic;
 		writeEnable : IN std_logic;          
@@ -179,9 +179,9 @@ architecture Behavioral of Procesador4 is
 		);
 	END COMPONENT;
 	
-	signal Crd,NpcOut,PcOut,ImOut,Seu,AluResult,Crs1,Crs2,op2,DataToMem,DataToReg,Seu22,adder1,adder2,adder3,SMuxNpc : std_logic_vector(31 downto 0);
+	signal adderDisp30Operand2,Crd,NpcOut,PcOut,ImOut,Seu,AluResult,Crs1,Crs2,op2,DataToMem,DataToReg,Seu22,adder1,adder2,adder3,SMuxNpc : std_logic_vector(31 downto 0);
 	signal WmNrs1,WmNrs2,WmNrd,Ro7,AluOp,nRd: std_logic_vector(5 downto 0);
-	signal Rfdest,Ncwp,wrEnMem,wrEnRF,Carry,Cwp,RdEnMen :std_logic;
+	signal Rfdest,Ncwp,wrEnMem,wrEnRF,Carry,SCwp,RdEnMen :std_logic;
 	signal PcSource, rfSource :std_logic_vector(1 downto 0);
 	signal icc,nzvc : STD_LOGIC_VECTOR(3 downto 0);
 begin
@@ -199,9 +199,11 @@ Inst_Disp22Adder: Adder PORT MAP(
 		Increment => PcOut,
 		AddOut => adder2
 	);
+	
+adderDisp30Operand2 <= "00"&ImOut(29 downto 0);--OJO CON EL SIGNO
 
 Inst_Disp30Adder: Adder PORT MAP(
-		AddIn => Seu22,
+		AddIn => adderDisp30Operand2,
 		Increment => PcOut,
 		AddOut => adder3
 	);
@@ -258,7 +260,7 @@ Inst_MuxNpc: MuxNpc PORT MAP(
 		PcSource => PcSource,
 		Pcdisp30 => adder3,
 		Pcdisp22 => adder2,
-		Pc => PcOut,
+		Pc => adder1,
 		AluOut => AluResult,
 		toNpc => SMuxNpc
 	);
@@ -293,7 +295,7 @@ Inst_PSR: PSR PORT MAP(
 		nCWP => Ncwp,
 		rst => reset,
 		Carry => Carry,
-		CWP => CWP,
+		CWP => SCwp,
 		icc => icc
 	);
 	
@@ -338,13 +340,15 @@ Inst_WindowsManager: WindowsManager PORT MAP(
 	rd => ImOut(29 downto 25),
 	rs1 => ImOut(18 downto 14),
 	rs2 => ImOut(4 downto 0),
-	cwp => Cwp,
+	cwp => SCwp,
 	nrs1 => WmNrs1,
 	nrs2 => WmNrs2,
 	nrd => WmNrd,
 	ncwp => Ncwp,
 	Registro07 =>Ro7 
 );
+
+result <= AluResult;
 
 end Behavioral;
 
