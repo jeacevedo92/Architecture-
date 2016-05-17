@@ -179,6 +179,13 @@ architecture Behavioral of Procesador4 is
 		);
 	END COMPONENT;
 	
+		COMPONENT SeuDisp30
+	PORT(
+		Disp30 : IN std_logic_vector(29 downto 0);          
+		Salida : OUT std_logic_vector(31 downto 0)
+		);
+	END COMPONENT;
+	
 	signal adderDisp30Operand2,Crd,NpcOut,PcOut,ImOut,Seu,AluResult,Crs1,Crs2,op2,DataToMem,DataToReg,Seu22,adder1,adder2,adder3,SMuxNpc : std_logic_vector(31 downto 0);
 	signal WmNrs1,WmNrs2,WmNrd,Ro7,AluOp,nRd: std_logic_vector(5 downto 0);
 	signal Rfdest,Ncwp,wrEnMem,wrEnRF,Carry,SCwp,RdEnMen :std_logic;
@@ -200,7 +207,7 @@ Inst_Disp22Adder: Adder PORT MAP(
 		AddOut => adder2
 	);
 	
-adderDisp30Operand2 <= "00"&ImOut(29 downto 0);--OJO CON EL SIGNO
+--adderDisp30Operand2 <= "00"&ImOut(29 downto 0);--OJO CON EL SIGNO
 
 Inst_Disp30Adder: Adder PORT MAP(
 		AddIn => adderDisp30Operand2,
@@ -347,6 +354,11 @@ Inst_WindowsManager: WindowsManager PORT MAP(
 	ncwp => Ncwp,
 	Registro07 =>Ro7 
 );
+
+Inst_SeuDisp30: SeuDisp30 PORT MAP(
+		Disp30 => ImOut(29 downto 0),
+		Salida => adderDisp30Operand2
+	);
 
 result <= AluResult;
 

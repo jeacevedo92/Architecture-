@@ -1,0 +1,3 @@
+vhdtdtfi -lib work SeuDisp30.vhd -prj Procesador_4 -o SeuDisp30.spl -module SeuDisp30 -template /home/jhon/Documentos/Universidad/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e SeuDisp30.spl /home/jhon/Architecture-/Procesador_4/SeuDisp30.sym 
+vhdtdtfi -prj Procesador_4 -o /home/jhon/Architecture-/Procesador_4/SeuDisp30.vhi -module SeuDisp30 -template /home/jhon/Documentos/Universidad/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work SeuDisp30.vhd 
