@@ -40,6 +40,18 @@ process(Op, Op2, Op3, icc, cond)
 						wrEnRF <= '0';
 						pcSource <="01";
 						AluOp <= "111111";
+					when "0110" => --branch negative
+						if(icc(3) = '1')then
+							rfSource <= "01";
+							wrEnRF <= '0';
+							pcSource <="01";
+							AluOp <= "111111";
+						else
+							rfSource <= "01";
+							wrEnRF <= '0';
+							pcSource <="10";
+							AluOp <= "111111";
+						end if;
 					when "1001" => --branch not equal
 						if(not(icc(2)) = '1')then --not Z
 							rfSource <= "01";
@@ -52,6 +64,7 @@ process(Op, Op2, Op3, icc, cond)
 							pcSource <="10";
 							AluOp <= "111111";
 						end if;
+					
 					when "0001" => --branch equal
 						if(icc(2) = '1')then --Z
 							rfSource <= "01";
